@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+}
+
+.top-left {
+  float: left;
+}
+
+.top-links {
+  float: right;
+}
+
+a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.top-links li:nth-child(5) {
+  margin-right: 0px;
+}
+
+.acronym {
+  margin-left: 20px;
+}
+
+header {
+  padding: 10px 20px 80px;
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  color: rgb(250,250,250);
+  box-sizing: border-box;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar div {
+  display: flex;
+}
+
+.search-bar div p {
+  margin: auto 20px auto auto; 
+}
+
+.search-bar form {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+
+.search-bar input {
+  height: 40px;
+  font-size: 1.1em;
+  padding-left: 5px;
+  background: rgb(31, 82, 111);
+  border: 1px solid rgba(250,250,250,0.2);
+  color: rgb(250,250,250);
+  box-sizing: border-box;
+  flex: 1;
+  border-right: none;
+}
+
+::placeholder {
+  color: rgba(250,250,250,0.2)
+}
+
+.search-bar button {
+  height: 40px;
+  width: 40px;
+  background: rgb(31, 82, 111);
+  font-size: 1.1em;
+  border: 1px solid rgba(250,250,250,0.2);
+  color: rgba(250,250,250,0.2);
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 200;
+  letter-spacing: 1.5px; 
+  line-height: 1;
+}
+
+br {
+  line-height: 2.2em;
+}
+
+.text {
+  font-size: 1.3em;
+}
+
+.sign-up-btn {
+  font-size: 1.1em;
+  text-align: center;
+  background: rgb(240, 146, 51);
+  padding: 5px;
+  display: block;
+  border: 2px solid rgba(255,140,0,0.2);
+  border-radius: 100px;
+  width: 250px;
+  margin: 30px 0 0;
+}
+
+.container {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 50px auto 0px;
+}
+
+.container article {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 0 100px;
+}
+
+.dark-background {
+  background: rgb(39, 53, 71);
+  color: rgb(250,250,250);
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.dark-background div {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 200;
+  letter-spacing: 1.5px; 
+  line-height: 1;
+  width: 400px;
+  margin-left: 40px;
+}
+
+.sign-up-orgs-btn {
+  font-size: 1.1em;
+  background: rgb(203, 56, 55);
+  padding: 5px;
+  border: 2px solid rgb(203, 56, 55);
+  border-radius: 100px;
+  display: block;
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.col ul {
+  width: 400px;
+  margin-left: 60px;
+}
+
+.text li:nth-child(-n+2) {
+  margin-bottom: 20px;
+}
+
+.col p {
+  text-align: center;
+  width: 350px;
+  margin-left: 60px;
+}
+
+div img[src="images/collaboration.svg"] {
+  float: left;
+  margin-left: 10%;
+}
+
+.col {
+  float: right;
+  width: 1200px;
+  box-sizing: border-box;
+  margin: auto; 
+  width: 50%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#install-npm {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: rgb(250,250,250);
+  position: relative;
+}
+
+#install-npm div {
+  width: 20%;
+  margin-left: 25%;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.link-inst-btn {
+  font-size: 1.1em;
+  text-align: center;
+  background: rgb(49, 68, 88);
+  padding: 5px;
+  border: 2px solid rgb(49,68,88);
+  border-radius: 100px;
+  width: 150px;
+  display: block;
+  margin-top: 0.5em;
+}
+
+.text-install {
+  font-size: 1.1em;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.2em;
+  color: rgb(83, 88, 98);
+  font-weight: 200;
+  letter-spacing: 1.5px; 
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+h5 {
+  color: rgb(135, 145, 156);
+  font-size: 1em;
+  margin: 20px auto;
+}
+
+h4 + p {
+  text-align: center;
+}
+
+.wrapper a {
+  color:rgb(208, 74, 73);
+}
+
+.info-buildings {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 0 5% 50px;;
+  text-align: center;
+}
+
+.info-buildings-middle {
+  margin: 0 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
